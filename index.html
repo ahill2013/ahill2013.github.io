@@ -115,7 +115,7 @@
                     <div class="details">
                         <p>Developed an autonomous robot, designed to navigate a course filled with randomly placed obstacles. The robot must navigate to several GPS waypoints, then return to its starting position within a specified time limit. The official website for the competition can be found <a href="http://www.igvc.org" target="_blank">here</a>. Our official team website can currently be found <a href="https://fit-igvc.github.io" target="_blank">here</a>.</p>  
                         <p>The robot's software was designed to be modular and independent. For example, if one of the components failed at some point, the entire system would not crash. Instead, it would pause execution of the other components and wait for the failed component to restart before continuing. Also, the addition of new modules and components is extremely easy, as our communications framework, based on an Advanced Message Queueing Protocol (AMQP) called RabbitMQ, is highly flexible. Rabbit MQ is designed to be a pub/sub server-client service. This allows us to write one client, and thread multiple instances each time we want another component. But even more interesting is that RabbitMQ is language independent, which allows us to write a software package using multiple languages.</p>
-                        <p>The main components of the robot consist of vision/line detection and pathfinding.</p>
+                        <p>The main components of the robot consist of vision/line detection, written in C++, and pathfinding, written in Java. Another component, being our motor controller code, was written in python.</p>
                     </div><!--//details-->
                 </div><!--//item-->
 
