@@ -227,6 +227,16 @@ p {
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
 }
+.skillset ul {
+  list-style-type: none;
+  list-style-position: inside;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+.skillset li:before {
+  content: "• ";
+}
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
