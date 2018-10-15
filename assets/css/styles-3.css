@@ -230,9 +230,9 @@ p {
 .skillset ul {
   list-style-type: none;
   list-style-position: inside;
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
+  columns: 3 162px;
+  -webkit-columns: 3 162px;
+  -moz-columns: 3 162px;
 }
 .skillset li:before {
   content: "• ";
